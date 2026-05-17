@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-    /* Palet Warna Premium (Emerald/Forest Green Theme) */
-    --surface-bg: #f4f7f5;
+    /* Palet Warna Premium (Material You Blue Theme) */
+    --surface-bg: #f4f7fa;
     --card-bg: #ffffff;
-    --primary-color: #105935;
-    --primary-light: #d1efe0;
-    --text-main: #1a211e;
-    --text-secondary: #5a6b63;
-    --border-color: #e2e8e4;
+    --primary-color: #0b57d0; /* Google Material Blue */
+    --primary-light: #d3e3fd; /* Blue Container */
+    --text-main: #1f1f1f;
+    --text-secondary: #5e5e5e;
+    --border-color: #e3e3e3;
 }
 
 body {
     background-color: var(--surface-bg);
     color: var(--text-main);
-    font-family: 'Plus Jakarta Sans', sans-serif; /* Font yang lebih modern dari Roboto */
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 /* Typography Colors */
@@ -23,11 +23,11 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, var(--primary-color) 0%, #1a8f56 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, #1b6ef3 100%);
     color: white;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
-    box-shadow: 0 10px 30px rgba(16, 89, 53, 0.15);
+    box-shadow: 0 10px 30px rgba(11, 87, 208, 0.15);
 }
 
 .bg-class {
