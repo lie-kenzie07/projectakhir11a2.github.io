@@ -6,19 +6,6 @@
     <title>Project 1 - Kalkulator</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        .calc-container { max-width: 360px; margin: 50px auto; }
-        .btn-calc { height: 60px; font-size: 1.3rem; border-radius: 16px; border: none; transition: all 0.2s ease; }
-        .btn-num { background-color: #ffffff; color: var(--text-main); border: 1px solid var(--border-color); }
-        .btn-num:hover { background-color: var(--surface-bg); }
-        .btn-op { background-color: var(--primary-light); color: var(--primary-color); font-weight: 600; }
-        .btn-op:hover { background-color: var(--primary-color); color: #ffffff; }
-        .btn-clear { background-color: #fdadad; color: #b71c1c; font-weight: 600; }
-        .btn-clear:hover { background-color: #b71c1c; color: #ffffff; }
-        .btn-equal { background-color: var(--primary-color); color: #ffffff; font-weight: 600; }
-        .btn-equal:hover { opacity: 0.9; transform: scale(0.98); }
-        #display { background-color: var(--surface-bg); border: 1px solid var(--border-color); color: var(--text-main); border-radius: 16px; font-weight: 600; font-size: 2rem; }
-    </style>
 </head>
 <body>
 
@@ -26,7 +13,8 @@
     <a href="index.html" class="btn btn-material mb-4">&larr; Kembali ke Index</a>
     
     <div class="material-card p-4">
-        <h4 class="text-center mb-4 text-primary-material fw-bold">Kalkulator</h4>
+        <h4 class="text-center mb-2 text-primary-material fw-bold">Kalkulator</h4>
+        <p class="text-center text-secondary-material mb-4" style="font-size: 0.9rem;">Kalkulator sederhana untuk operasi matematika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.</p>
         
         <input type="text" id="display" class="form-control mb-4 text-end py-3" disabled>
         
