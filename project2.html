@@ -3,18 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>prj2 todo list</title>
+    <title>Project 2 - To-Do List</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        .todo-container { max-width: 520px; margin: 50px auto; }
-        .form-control-custom { border-radius: 24px 0 0 24px; border: 1px solid var(--border-color); padding-left: 20px; }
-        .form-control-custom:focus { border-color: var(--primary-color); box-shadow: none; background-color: #ffffff; }
-        .btn-todo-add { border-radius: 0 24px 24px 0 !important; background-color: var(--primary-color); color: #ffffff; border: none; font-weight: 600; padding: 0 24px; transition: all 0.2s; }
-        .btn-todo-add:hover { opacity: 0.9; }
-        .todo-item { border-radius: 16px !important; border: 1px solid var(--border-color) !important; background: var(--card-bg); margin-bottom: 10px; transition: all 0.2s ease; padding: 14px 20px !important; }
-        .todo-item:hover { border-color: var(--primary-light) !important; transform: translateX(3px); }
-    </style>
 </head>
 <body>
 
@@ -22,10 +13,11 @@
     <a href="index.html" class="btn btn-material mb-4">&larr; Kembali ke Index</a>
 
     <div class="material-card p-4">
-        <h4 class="text-center mb-4 text-primary-material fw-bold">To-Do List</h4>
+        <h4 class="text-center mb-2 text-primary-material fw-bold">To-Do List</h4>
+        <p class="text-center text-secondary-material mb-4" style="font-size: 0.9rem;">Catat dan kelola tugas harianmu dengan mudah. Tambahkan list baru dan hapus jika sudah selesai dikerjakan.</p>
         
         <div class="input-group mb-4">
-            <input type="text" id="taskInput" class="form-control form-control-lg form-control-custom" placeholder="Tulis tugas baru...">
+            <input type="text" id="taskInput" class="form-control form-control-lg input-todo" placeholder="Tulis tugas baru...">
             <button class="btn btn-todo-add" onclick="addTask()">Tambah</button>
         </div>
         
